@@ -50,11 +50,16 @@ body {
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
+  color:#ffffff;
+}
+.jumbotron .btn:hover,
+.jumbotron .btn:active {
+	background-color:#ff9900;
 }
 
 /* Supporting marketing content */
 .marketing {
-  margin: 40px 0;
+  margin: 20px 0;
 }
 .marketing p + h4 {
   margin-top: 28px;

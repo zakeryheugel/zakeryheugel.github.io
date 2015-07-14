@@ -1,0 +1,20 @@
+body {background-color:#666666;}
+.jumbotron{background-color:#333333;color:#ffffff;margin-top:-25px;}
+.jumbotron h1 {color:#ff9900;}
+/*f48519*/
+.jumbotron .btn {
+	background-color:#666666;
+	border:1px solid #666666;
+}
+
+.navbar {background-color:#333333;color:#ffffff;border-bottom-right-radius:0px;border-bottom-left-radius:0px;}
+.container {background-color:#ffffff;padding-top:10px;border-radius:5px;}
+
+
+.footer-links{
+	width:200px;
+	float:left;
+}
+.footer-links a {
+	display:block;
+}
