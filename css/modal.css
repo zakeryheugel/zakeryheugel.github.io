@@ -16,6 +16,7 @@ html {height:100%;width:100%;}
 	overflow:hidden;
 	border:1px solid #ffffff;
 	padding:0px;
+	height:100%;
 }
 
 #contact img {
@@ -33,7 +34,7 @@ html {height:100%;width:100%;}
 
 
 /* Customize container */
-@media (min-width: 500px) {
+@media (min-width: 300px) {
   #contact {
     max-width: 600px;
 	max-height: 343px;
