@@ -1,6 +1,4 @@
 .popup {
-	height:350px;
-	width:500px;
 	background-color:white;
 	border:solid;
 	display:none;
@@ -13,8 +11,8 @@ html {height:100%;width:100%;}
 #modalBase {height:100%;width:100%;margin:0px;margin-top:-20px;position:fixed;background-color:black;opacity:0.25;z-index:98;display:none;}
 
 #contact {
-	height:530px;
-	width:928px;
+	/*height:530px;
+	width:928px;*/
 	overflow:hidden;
 	border:1px solid #ffffff;
 }
@@ -29,4 +27,14 @@ html {height:100%;width:100%;}
 	position:absolute;
 	left:900px;
 	top:40px;
+}
+
+
+/* Customize container */
+@media (min-width: 500px) {
+  #contact,
+  #contact img {
+    max-width: 928px;
+	max-height: 530px;
+  }
 }
